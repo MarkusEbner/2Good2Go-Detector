@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2CF6CF2CE3D58E0017DB3D /* _Good2Go_DetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF6CE2CE3D58E0017DB3D /* _Good2Go_DetectorApp.swift */; };
+		BB2CF6D12CE3D58E0017DB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF6D02CE3D58E0017DB3D /* ContentView.swift */; };
+		BB2CF6D32CE3D5900017DB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CF6D22CE3D5900017DB3D /* Assets.xcassets */; };
+		BB2CF6D72CE3D5900017DB3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CF6D62CE3D5900017DB3D /* Preview Assets.xcassets */; };
+		BB2CF6E12CE3D5900017DB3D /* _Good2Go_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF6E02CE3D5900017DB3D /* _Good2Go_DetectorTests.swift */; };
+		BB2CF6EB2CE3D5900017DB3D /* _Good2Go_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF6EA2CE3D5900017DB3D /* _Good2Go_DetectorUITests.swift */; };
+		BB2CF6ED2CE3D5900017DB3D /* _Good2Go_DetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF6EC2CE3D5900017DB3D /* _Good2Go_DetectorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2CF6DD2CE3D5900017DB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2CF6C32CE3D58E0017DB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2CF6CA2CE3D58E0017DB3D;
+			remoteInfo = "2Good2Go Detector";
+		};
+		BB2CF6E72CE3D5900017DB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2CF6C32CE3D58E0017DB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2CF6CA2CE3D58E0017DB3D;
+			remoteInfo = "2Good2Go Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB2CF6CB2CE3D58E0017DB3D /* 2Good2Go Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2Good2Go Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CF6CE2CE3D58E0017DB3D /* _Good2Go_DetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Good2Go_DetectorApp.swift; sourceTree = "<group>"; };
+		BB2CF6D02CE3D58E0017DB3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB2CF6D22CE3D5900017DB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2CF6D42CE3D5900017DB3D /* _Good2Go_Detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _Good2Go_Detector.entitlements; sourceTree = "<group>"; };
+		BB2CF6D62CE3D5900017DB3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB2CF6DC2CE3D5900017DB3D /* 2Good2Go DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2Good2Go DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CF6E02CE3D5900017DB3D /* _Good2Go_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Good2Go_DetectorTests.swift; sourceTree = "<group>"; };
+		BB2CF6E62CE3D5900017DB3D /* 2Good2Go DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2Good2Go DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2CF6EA2CE3D5900017DB3D /* _Good2Go_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Good2Go_DetectorUITests.swift; sourceTree = "<group>"; };
+		BB2CF6EC2CE3D5900017DB3D /* _Good2Go_DetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Good2Go_DetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2CF6C82CE3D58E0017DB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CF6D92CE3D5900017DB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CF6E32CE3D5900017DB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2CF6C22CE3D58E0017DB3D = {
+			isa = PBXGroup;
+			children = (
+				BB2CF6CD2CE3D58E0017DB3D /* 2Good2Go Detector */,
+				BB2CF6DF2CE3D5900017DB3D /* 2Good2Go DetectorTests */,
+				BB2CF6E92CE3D5900017DB3D /* 2Good2Go DetectorUITests */,
+				BB2CF6CC2CE3D58E0017DB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2CF6CC2CE3D58E0017DB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CF6CB2CE3D58E0017DB3D /* 2Good2Go Detector.app */,
+				BB2CF6DC2CE3D5900017DB3D /* 2Good2Go DetectorTests.xctest */,
+				BB2CF6E62CE3D5900017DB3D /* 2Good2Go DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2CF6CD2CE3D58E0017DB3D /* 2Good2Go Detector */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CF6CE2CE3D58E0017DB3D /* _Good2Go_DetectorApp.swift */,
+				BB2CF6D02CE3D58E0017DB3D /* ContentView.swift */,
+				BB2CF6D22CE3D5900017DB3D /* Assets.xcassets */,
+				BB2CF6D42CE3D5900017DB3D /* _Good2Go_Detector.entitlements */,
+				BB2CF6D52CE3D5900017DB3D /* Preview Content */,
+			);
+			path = "2Good2Go Detector";
+			sourceTree = "<group>";
+		};
+		BB2CF6D52CE3D5900017DB3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CF6D62CE3D5900017DB3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB2CF6DF2CE3D5900017DB3D /* 2Good2Go DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CF6E02CE3D5900017DB3D /* _Good2Go_DetectorTests.swift */,
+			);
+			path = "2Good2Go DetectorTests";
+			sourceTree = "<group>";
+		};
+		BB2CF6E92CE3D5900017DB3D /* 2Good2Go DetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2CF6EA2CE3D5900017DB3D /* _Good2Go_DetectorUITests.swift */,
+				BB2CF6EC2CE3D5900017DB3D /* _Good2Go_DetectorUITestsLaunchTests.swift */,
+			);
+			path = "2Good2Go DetectorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2CF6CA2CE3D58E0017DB3D /* 2Good2Go Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CF6F02CE3D5900017DB3D /* Build configuration list for PBXNativeTarget "2Good2Go Detector" */;
+			buildPhases = (
+				BB2CF6C72CE3D58E0017DB3D /* Sources */,
+				BB2CF6C82CE3D58E0017DB3D /* Frameworks */,
+				BB2CF6C92CE3D58E0017DB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2Good2Go Detector";
+			productName = "2Good2Go Detector";
+			productReference = BB2CF6CB2CE3D58E0017DB3D /* 2Good2Go Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2CF6DB2CE3D5900017DB3D /* 2Good2Go DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CF6F32CE3D5900017DB3D /* Build configuration list for PBXNativeTarget "2Good2Go DetectorTests" */;
+			buildPhases = (
+				BB2CF6D82CE3D5900017DB3D /* Sources */,
+				BB2CF6D92CE3D5900017DB3D /* Frameworks */,
+				BB2CF6DA2CE3D5900017DB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2CF6DE2CE3D5900017DB3D /* PBXTargetDependency */,
+			);
+			name = "2Good2Go DetectorTests";
+			productName = "2Good2Go DetectorTests";
+			productReference = BB2CF6DC2CE3D5900017DB3D /* 2Good2Go DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB2CF6E52CE3D5900017DB3D /* 2Good2Go DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2CF6F62CE3D5900017DB3D /* Build configuration list for PBXNativeTarget "2Good2Go DetectorUITests" */;
+			buildPhases = (
+				BB2CF6E22CE3D5900017DB3D /* Sources */,
+				BB2CF6E32CE3D5900017DB3D /* Frameworks */,
+				BB2CF6E42CE3D5900017DB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2CF6E82CE3D5900017DB3D /* PBXTargetDependency */,
+			);
+			name = "2Good2Go DetectorUITests";
+			productName = "2Good2Go DetectorUITests";
+			productReference = BB2CF6E62CE3D5900017DB3D /* 2Good2Go DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2CF6C32CE3D58E0017DB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BB2CF6CA2CE3D58E0017DB3D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BB2CF6DB2CE3D5900017DB3D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BB2CF6CA2CE3D58E0017DB3D;
+					};
+					BB2CF6E52CE3D5900017DB3D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BB2CF6CA2CE3D58E0017DB3D;
+					};
+				};
+			};
+			buildConfigurationList = BB2CF6C62CE3D58E0017DB3D /* Build configuration list for PBXProject "2Good2Go Detector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2CF6C22CE3D58E0017DB3D;
+			productRefGroup = BB2CF6CC2CE3D58E0017DB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2CF6CA2CE3D58E0017DB3D /* 2Good2Go Detector */,
+				BB2CF6DB2CE3D5900017DB3D /* 2Good2Go DetectorTests */,
+				BB2CF6E52CE3D5900017DB3D /* 2Good2Go DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2CF6C92CE3D58E0017DB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CF6D72CE3D5900017DB3D /* Preview Assets.xcassets in Resources */,
+				BB2CF6D32CE3D5900017DB3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CF6DA2CE3D5900017DB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CF6E42CE3D5900017DB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2CF6C72CE3D58E0017DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CF6D12CE3D58E0017DB3D /* ContentView.swift in Sources */,
+				BB2CF6CF2CE3D58E0017DB3D /* _Good2Go_DetectorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CF6D82CE3D5900017DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CF6E12CE3D5900017DB3D /* _Good2Go_DetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2CF6E22CE3D5900017DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2CF6ED2CE3D5900017DB3D /* _Good2Go_DetectorUITestsLaunchTests.swift in Sources */,
+				BB2CF6EB2CE3D5900017DB3D /* _Good2Go_DetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2CF6DE2CE3D5900017DB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2CF6CA2CE3D58E0017DB3D /* 2Good2Go Detector */;
+			targetProxy = BB2CF6DD2CE3D5900017DB3D /* PBXContainerItemProxy */;
+		};
+		BB2CF6E82CE3D5900017DB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2CF6CA2CE3D58E0017DB3D /* 2Good2Go Detector */;
+			targetProxy = BB2CF6E72CE3D5900017DB3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB2CF6EE2CE3D5900017DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2CF6EF2CE3D5900017DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BB2CF6F12CE3D5900017DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "2Good2Go Detector/_Good2Go_Detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2Good2Go Detector/Preview Content\"";
+				DEVELOPMENT_TEAM = W3X4S5U55U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Schnupski.-Good2Go-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2CF6F22CE3D5900017DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "2Good2Go Detector/_Good2Go_Detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2Good2Go Detector/Preview Content\"";
+				DEVELOPMENT_TEAM = W3X4S5U55U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Schnupski.-Good2Go-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB2CF6F42CE3D5900017DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3X4S5U55U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Schnupski.-Good2Go-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Good2Go Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2Good2Go Detector";
+			};
+			name = Debug;
+		};
+		BB2CF6F52CE3D5900017DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3X4S5U55U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Schnupski.-Good2Go-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Good2Go Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2Good2Go Detector";
+			};
+			name = Release;
+		};
+		BB2CF6F72CE3D5900017DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3X4S5U55U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Schnupski.-Good2Go-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2Good2Go Detector";
+			};
+			name = Debug;
+		};
+		BB2CF6F82CE3D5900017DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3X4S5U55U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Schnupski.-Good2Go-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2Good2Go Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2CF6C62CE3D58E0017DB3D /* Build configuration list for PBXProject "2Good2Go Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CF6EE2CE3D5900017DB3D /* Debug */,
+				BB2CF6EF2CE3D5900017DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CF6F02CE3D5900017DB3D /* Build configuration list for PBXNativeTarget "2Good2Go Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CF6F12CE3D5900017DB3D /* Debug */,
+				BB2CF6F22CE3D5900017DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CF6F32CE3D5900017DB3D /* Build configuration list for PBXNativeTarget "2Good2Go DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CF6F42CE3D5900017DB3D /* Debug */,
+				BB2CF6F52CE3D5900017DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2CF6F62CE3D5900017DB3D /* Build configuration list for PBXNativeTarget "2Good2Go DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2CF6F72CE3D5900017DB3D /* Debug */,
+				BB2CF6F82CE3D5900017DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2CF6C32CE3D58E0017DB3D /* Project object */;
+}
